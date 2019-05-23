@@ -2,7 +2,7 @@
   "name": "knowbot",
   "version": "1.0.0",
   "description": "Discord bot",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": ""
   },
