@@ -1,0 +1,19 @@
+{
+  "name": "knowbot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "\\",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naptyo/knowbot.git"
+  },
+  "author": "nap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naptyo/knowbot/issues"
+  },
+  "homepage": "https://github.com/naptyo/knowbot#readme"
+}
