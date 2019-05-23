@@ -2,9 +2,9 @@
   "name": "knowbot",
   "version": "1.0.0",
   "description": "Discord bot",
-  "main": "\\",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/naptyo/knowbot/issues"
   },
-  "homepage": "https://github.com/naptyo/knowbot#readme"
+  "homepage": "https://github.com/naptyo/knowbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.0"
+  }
 }
