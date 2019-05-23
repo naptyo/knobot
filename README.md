@@ -1,2 +1,2 @@
-# knowbot
+# Knobot
 Discord bot
