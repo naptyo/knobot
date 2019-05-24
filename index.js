@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 
 client.once('ready', () => {
@@ -6,9 +7,11 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content == '!ping') {
+    if (message.content.startsWith(`${prefix}ping`)) {
         message.channel.send('Pong.');
+    } else if (message.content.startsWith(`${prefix}server`)) {
+        message.channel.send(`Server name: ${message.guild.name}\n ID is: ${message.guild.id}`);
     }
 });
 
-client.login('NTgxMDU3MjgyODE3NjU0ODA1.XOZ01w.GMgpcD7PVFaZMngYtW8gdR85xng');
+client.login(token);
