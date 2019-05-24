@@ -10,7 +10,7 @@ client.on('message', message => {
     if (message.content.startsWith(`${prefix}ping`)) {
         message.channel.send('Pong.');
     } else if (message.content.startsWith(`${prefix}server`)) {
-        message.channel.send(`Server name: ${message.guild.name}\n ID is: ${message.guild.id}`);
+        message.channel.send(`Server name: ${message.guild.name}\nID is: ${message.guild.id}`);
     }
 });
 
